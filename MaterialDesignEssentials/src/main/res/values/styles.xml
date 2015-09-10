@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2015 KavelCortex
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--STYLES-->
+
+    <!--Styles using dimensions from Google design guidelines. It should look fully Material.-->
+    <!--some of the styles might need android.support dependencies-->
+
+    <!--AppThemes (Better use Toolbar instead of ActionBar.)-->
+    <declare-styleable name="MaterialTheme"><attr name="colorPrimaryLight" format="color"/></declare-styleable>
+
+    <style name="Base.MaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--You might want to change the color. Inherit style "MaterialTheme" and change them in your project's XML.
+            <item name="colorPrimary">@color/blue</item>
+            <item name="colorPrimaryLight">@color/blue_100</item>
+            <item name="colorPrimaryDark">@color/blue_700</item>
+            <item name="colorAccent">@color/yellow_A200</item>
+        -->
+    </style>
+
+    <style name="MaterialTheme" parent="Base.MaterialTheme">
+        <item name="android:windowTranslucentStatus" tools:targetApi="19">true</item>
+    </style>
+
+    <!--toolbar-->
+    <style name="Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!--cards-->
+    <style name="MaterialCard" />
+
+    <style name="MaterialCard.CardView" parent="CardView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardBackgroundColor">@color/grey_50</item>
+        <item name="android:layout_marginTop">@dimen/cards_vertical_margin_half</item>
+        <item name="android:layout_marginBottom">@dimen/cards_vertical_margin_half</item>
+        <item name="android:layout_marginLeft">@dimen/cards_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/cards_horizontal_margin</item>
+    </style>
+
+    <style name="MaterialCard.ContentBlock">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/cards_contents_margin_with_additional_contents</item>
+        <item name="android:layout_marginLeft">@dimen/cards_internal_horizontal_margin</item>
+        <item name="android:layout_marginStart" tools:targetApi="17">
+            @dimen/cards_internal_horizontal_margin
+        </item>
+    </style>
+
+    <style name="MaterialCard.ContentBlock.TextView" />
+
+    <style name="MaterialCard.ContentBlock.TextView.PrimaryTitle">
+        <item name="android:layout_marginTop"> @dimen/cards_contents_margin_with_no_additional_contents</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+    </style>
+
+    <style name="MaterialCard.ContentBlock.TextView.Title">
+        <!--for a smaller title-->
+        <item name="android:layout_marginTop">@dimen/cards_contents_margin_with_additional_contents</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="MaterialCard.ContentBlock.TextView.Subtitle">
+        <!--subtitle is only used under the primary title, if not, use the supporting text style.-->
+        <item name="android:layout_marginTop">@dimen/cards_contents_margin_with_additional_contents</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+    <style name="MaterialCard.ContentBlock.TextView.SupportingText">
+        <item name="android:layout_marginTop">@dimen/cards_contents_margin_with_additional_contents</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+    </style>
+
+    <!--navigation-->
+    <style name="NavigationDrawer" />
+
+    <style name="NavigationDrawer.DrawerLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="NavigationDrawer.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="insetForeground">#4000</item>
+    </style>
+
+    <style name="NavigationDrawer.NavigationView.FromStart">
+        <item name="android:layout_gravity">start</item>
+    </style>
+
+    <style name="NavigationDrawer.NavigationView.FromEnd">
+        <item name="android:layout_gravity">end</item>
+    </style>
+
+    <style name="NavigationDrawer.NavigationView.FromLeft">
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <style name="NavigationDrawer.NavigationView.FromRight">
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <style name="NavigationDrawer.NavigationView.FromBottom">
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <!--dialogs-->
+    <style name="MaterialDialog" />
+
+    <style name="MaterialDialog.LayoutFrame" parent="AlertDialog.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/dialogs_content_around_margin</item>
+    </style>
+
+    <style name="MaterialDialog.ContentBlock">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dialogs_content_internal_margin</item>
+    </style>
+
+    <style name="MaterialDialog.ContentBlock.TextView"/>
+
+    <style name="MaterialDialog.ContentBlock.TextView.Title">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="MaterialDialog.ContentBlock.TextView.Body">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+    </style>
+
+
+</resources>

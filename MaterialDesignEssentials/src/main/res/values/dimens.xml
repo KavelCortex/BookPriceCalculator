@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015 KavelCortex
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+<!--DIMENSIONS-->
+
+<!--Dimensions in Material Design-->
+<!--Use dimensions from Google design guidelines to make a Materially Designs.-->
+<!--You can also use Styles in styles.xml to easily create Material Designed components.  -->
+
+    <!--status bar-->
+    <dimen name="status_bar_default_size">24dp</dimen>
+
+    <!--text size-->
+    <dimen name="text_size_display_4_material">112sp</dimen>
+    <dimen name="text_size_display_3_material">56sp</dimen>
+    <dimen name="text_size_display_2_material">45sp</dimen>
+    <dimen name="text_size_display_1_material">34sp</dimen>
+    <dimen name="text_size_headline_material">24sp</dimen>
+    <dimen name="text_size_title_material">20sp</dimen>
+    <dimen name="text_size_subhead_material">16sp</dimen>
+    <dimen name="text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="text_size_subtitle_material_toolbar">16dp</dimen>
+    <dimen name="text_size_menu_material">16sp</dimen>
+    <dimen name="text_size_body_2_material">14sp</dimen>
+    <dimen name="text_size_body_1_material">14sp</dimen>
+    <dimen name="text_size_caption_material">12sp</dimen>
+    <dimen name="text_size_button_material">14sp</dimen>
+
+    <dimen name="text_size_large_material">22sp</dimen>
+    <dimen name="text_size_medium_material">18sp</dimen>
+    <dimen name="text_size_small_material">14sp</dimen>
+
+    <!--button-->
+    <dimen name="button_around_margin">8dp</dimen>
+    <dimen name="button_between_margin">8dp</dimen>
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_min_width">64dp</dimen>
+    <dimen name="floating_action_button_normal_size">56dp</dimen>
+    <dimen name="floating_action_button_mini_size">40dp</dimen>
+
+    <!--cards-->
+    <dimen name="cards_corner_default_radius">2dp</dimen>
+    <dimen name="cards_elevation_resting">2dp</dimen>
+    <dimen name="cards_elevation_raised">8dp</dimen>
+
+    <dimen name="cards_primarytitle_text_size">@dimen/text_size_headline_material</dimen>
+    <dimen name="cards_subtitle_text_size">@dimen/text_size_small_material</dimen>
+    <dimen name="cards_supporting_text_size">@dimen/text_size_small_material</dimen>
+
+    <dimen name="cards_horizontal_margin">8dp</dimen>
+    <dimen name="cards_vertical_margin">8dp</dimen>
+    <dimen name="cards_vertical_margin_half">4dp</dimen>
+    <dimen name="cards_internal_horizontal_margin">8dp</dimen>
+
+    <!--use this margin to divide contents (e.g. title and support text, support text and action button row).-->
+    <dimen name="cards_contents_margin_with_additional_contents">8dp</dimen>
+    <!--use this margin at the top/bottom of the entire card.
+    Since I have no way to predict which content is at the bottom, you might manually add the paddingBottom margin at the content block container (e.g. LinearLayout). -->
+    <dimen name="cards_contents_margin_with_no_additional_contents">16dp</dimen>
+
+    <dimen name="cards_actions_vertical_margin">@dimen/button_around_margin</dimen> <!--this must use on both top and bottom of any action button row-->
+    <dimen name="cards_actions_between_margin">4dp</dimen>
+
+    <!--navigation drawers-->
+    <dimen name="navigation_drawer_width_mobile">320dp</dimen>
+    <dimen name="navigation_drawer_width_tablet">400dp</dimen>
+    <dimen name="navigation_drawer_padding_from_screen">56dp</dimen>
+    
+    <!--dialogs-->
+    <dimen name="dialogs_title_text_size">@dimen/text_size_title_material</dimen>
+    <dimen name="dialogs_content_around_margin">24dp</dimen><!--"content" = title + body text-->
+    <dimen name="dialogs_content_internal_margin">20dp</dimen>
+    <dimen name="dialogs_actions_bottom_margin">16dp</dimen>
+    <dimen name="dialogs_actions_horizontal_margin">8dp</dimen>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015 KavelCortex
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+
+
+    <string name="set_the_cost1">设定课本1的价格</string>
+    <string name="set_the_cost2">设定课本2的价格</string>
+    <string name="set_the_cost3">设定课本3的价格</string>
+    <string name="set_the_cost4">设定课本4的价格</string>
+    <string name="set_the_cost5">设定课本5的价格</string>
+    <string name="set_the_cost6">设定课本6的价格</string>
+    <string name="set_the_cost7">设定课本7的价格</string>
+    <string name="set_the_cost8">设定课本8的价格</string>
+    <string name="set_the_cost9">设定课本9的价格</string>
+    <string name="set_the_cost10">设定课本10的价格</string>
+    <string name="set_the_cost11">设定课本11的价格</string>
+    <string name="set_the_cost12">设定课本12的价格</string>
+    <string name="set_the_cost13">设定课本13的价格</string>
+    <string name="set_the_cost14">设定课本14的价格</string>
+    <string name="set_the_cost15">设定课本15的价格</string>
+    <string name="set_the_cost16">设定课本16的价格</string>
+    <string name="set_the_cost17">设定课本17的价格</string>
+    <string name="set_the_cost18">设定课本18的价格</string>
+    <string name="set_the_cost19">设定课本19的价格</string>
+    <string name="set_the_cost20">设定课本20的价格</string>
+
+    <string name="book1">课本1</string>
+    <string name="book2">课本2</string>
+    <string name="book3">课本3</string>
+    <string name="book4">课本4</string>
+    <string name="book5">课本5</string>
+    <string name="book6">课本6</string>
+    <string name="book7">课本7</string>
+    <string name="book8">课本8</string>
+    <string name="book9">课本9</string>
+    <string name="book10">课本10</string>
+    <string name="book11">课本11</string>
+    <string name="book12">课本12</string>
+    <string name="book13">课本13</string>
+    <string name="book14">课本14</string>
+    <string name="book15">课本15</string>
+    <string name="book16">课本16</string>
+    <string name="book17">课本17</string>
+    <string name="book18">课本18</string>
+    <string name="book19">课本19</string>
+    <string name="book20">课本20</string>
+</resources>

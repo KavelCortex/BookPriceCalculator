@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BookPriceCalculator</string>
+    <string name="title_activity_total_price">TotalPrice</string>
+    <string name="main_activity_subtitle">请从左侧抽屉选择书本</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="AOR_reset">复位</string>
+    <string name="AOR_check_all">全选</string>
+    <string name="reset_complete">--- 金额已重置 ---</string>
+
+    <string name="set_price_title">设定课本价格</string>
+    <string name="set_price_subtitle">在这里设定你的课本价格</string>
+    <string name="pref_default_cost">0.0</string>
+    <string name="drawer_title">点击下方数字以选择书籍</string>
+    <string name="drawer_opened">Drawer opened.</string>
+    <string name="drawer_closed">Drawer Closed.</string>
+
+</resources>
